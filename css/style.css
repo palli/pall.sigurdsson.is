@@ -1,28 +1,24 @@
-/* @override 
+/* @override
 	http://localhost:8000/arnar/static/css/style.css
 	http://www.hvergi.net/arnar/static/css/style.css
 */
 
 body {
 	background-color: #eee;
-	background-image: url(bgstripes.png);
-	margin: 0 30px 0 30px;
+	background-image: url(../img/bak.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 38em;
 }
 
-#wrapper {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 900px;
-	border-right: 8px solid #f6f6f6;
-	border-left: 8px solid #f6f6f6;
-}
 
 #content {
 	background-color: #FFF;
+    margin-top: 50px;
 	border-right: 1px solid #ccc;
 	border-left: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
-	background-image: url(hbackground.png);
+    border-top: 1px solid #ccc;
 	background-repeat: repeat-x;
 }
 
@@ -56,31 +52,7 @@ body {
 }
 
 #menu a:hover {
-	background: #fff url(hbackground_striped.png) repeat-x 0 1px;
-}
-
-#logo {
-	float: right;
-	clear: both;
-	margin: 25px 35px 0 0;
-	border: 0;
-}
-
-#biglogo {
-    padding: 0;
-    width: 345px;
-    height: 133px;
-    background-image: url(logo.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#biglogo span {
-    display: none;
-}
-
-#sublogo {
-    display: none;
+    color: #769bca;
 }
 
 h1 {
@@ -423,4 +395,14 @@ div.line-block {
         font-size: 0.8em;
         float:  left;
         margin-right: 0.5em;
+}
+
+.profile_picture, .highlights {
+    float: left;
+    margin-left: 2em;
+}
+.main_content {
+    clear: both;
+    margin-left: 2em;
+    border-top: 1px solid #CCC;
 }
