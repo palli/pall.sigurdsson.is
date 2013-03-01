@@ -4,26 +4,27 @@
   <meta charset=utf-8 />
   <title> {% if page.title %} {{ page.title }} | {% endif %} Pall Sigurdsson </title>
   <link rel="stylesheet" href="/css/style.css" />
-  <link rel="stylesheet" href="/css/pygments_style.css" />
 </head>
 <body>
   <div id="main">
-  <div id="content">
-    <div id="menu">
-        <ul>
-          <li><a href="/about/">About me</a></li>
-          <li><a href="/projects/">Projects</a></li>
-          <li><a href="/contact/">Contact me</a></li>
-        </ul>
-    </div>
-      <div style="clear: both;">
-          {{ content }}
+      <div id="box">
+
+            <div id="menu">
+                <ul>
+                  <li><a href="/about/">About me</a></li>
+                    <li><a href="/blog/">Blog</a></li>
+                    <li><a href="/projects/">Projects</a></li>
+                  <li><a href="/contact/">Contact me</a></li>
+                </ul>
+            </div>
+
+            <div class="main_body">
+              <div class="content">
+                  {{ content }}
+              </div>
+            </div>
 
       </div>
-
-    <footer>
-      <p>@copy; Pall Sigurdsson | All Rights Reserved. </p>
-    </footer>
   </div>
 </body>
 </html>
