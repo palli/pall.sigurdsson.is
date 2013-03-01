@@ -2,9 +2,10 @@
 layout: default
 title: Blog
 ---
-  {% for post in site.posts %}
-    <a href="{{ post.url }}">
-      <h2>{{ post.title }}</h2>
-    </a>
+  {% for post in site.posts limit: 5 %}
+
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       {{post.content }}
+    <!-- <span>({{ post.date | date:"%Y-%m-%d" }})</span> -->
+        <hr>
   {% endfor %}
