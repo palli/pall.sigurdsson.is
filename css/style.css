@@ -26,6 +26,7 @@ body {
 #menu ul {
 	margin-top: 5px;
 	margin-right: 20px;
+    margin-bottom: 0px;
 	list-style-image: none;
 }
 
@@ -41,7 +42,6 @@ body {
 	font-size: 11px;
 	text-decoration: none;
 	color: #5e7ba0;
-	padding: 10px 10px 40px 10px;
 }
 
 #menu a:hover {
