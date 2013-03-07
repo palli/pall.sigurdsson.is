@@ -21,6 +21,7 @@ body {
 
 #menu {
 	float: right;
+    margin-bottom: 15px;
 }
 
 #menu ul {
@@ -33,19 +34,20 @@ body {
 #menu ul li {
 	display: inline;
 	font-family: Verdana,sans-serif;
-	font-size: 11px;
+	font-size: 14px;
+    margin: 10px;
 	font-weight: bold;
 }
 
 #menu a {
 	font-family: Verdana,sans-serif;
-	font-size: 11px;
 	text-decoration: none;
 	color: #5e7ba0;
 }
 
 #menu a:hover {
     color: #769bca;
+
 }
 
 h1 {
